@@ -1,0 +1,10 @@
+﻿Item,Description
+Target classes,Binary classification: cracked and non-cracked.
+Cracked definition,"Images showing visible eggshell crack lines, shell fractures, broken shell regions, or crack-like discontinuities were labelled as cracked."
+Non-cracked definition,"Images without visible shell cracks were labelled as non-cracked, including eggs with dirt marks, stains, colour variation, or natural shell irregularities."
+Re-annotation,Images obtained from datasets were manually re-annotated into the two target classes.
+Reviewers,Three independent professionals
+Conflict resolution,"When reviewers disagreed, the final class label was assigned by majority voting."
+Ambiguity handling,"Images with excessive blur, unclear crack visibility, heavy obstruction, duplicate content, or uncertain class membership were excluded or rechecked before inclusion."
+Data leakage prevention,"Duplicate, near-duplicate, and highly similar images were prevented from appearing in both training and independent test subsets."
+Known limitation,"Camera model, sensor settings, lens parameters, egg storage age, and exact illumination details were not consistently available for public-source images."

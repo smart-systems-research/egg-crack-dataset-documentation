@@ -1,0 +1,12 @@
+﻿Metric,Value,Formula / Source,Notes
+Total images used,1400,"""Dataset Sources.xlsx"", Cell E11 (TOTAL)",Total curated images included in the final dataset
+Total cracked images,700,"""Dataset Sources.xlsx"", Cell F11 (TOTAL)",Final cracked class after manual re-annotation
+Total non-cracked images,700,"""Dataset Sources.xlsx"", Cell G11 (TOTAL)",Final non-cracked class after manual re-annotation
+Class balance,50.00%,Total cracked images / Total images used,Cracked proportion of total dataset
+Non-egg cracked-surface images,80,User dataset record,"Approximately 5.7% of 1,400 images"
+Training/ Val split,1120,80% of total,560 cracked + 560 non-cracked
+Independent test split,280,20% of total,140 cracked + 140 non-cracked
+Dataset Split,Cracked,Non-cracked,Total
+Training/ Val set,560,560,1120
+Independent test set,140,140,280
+Total,700,700,1400
